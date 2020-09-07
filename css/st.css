@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(190, 94, 245, 0.781);
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    border-color: rgba(88, 248, 14, 0.925);
+    border: dashed;
+    border-radius: 50%;
+    color: rgb(241, 239, 67);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: red;
+    height: 100px;
+}
