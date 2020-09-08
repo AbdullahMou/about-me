@@ -7,7 +7,7 @@ alert('welcom ' + name + ' :)');
 // <input type="button"; id="bt" value="start" onclick="var Qold= prompt('are you know how old am I') >
 
 
-var Qname = prompt('do u know who am I ');
+var Qname = prompt('do u know who am I ').toLowerCase();
 //console.log(Qname);
 //console.log(typeof(Qname))
 if (Qname == 'y' || Qname == 'yes') {
@@ -19,7 +19,7 @@ if (Qname == 'y' || Qname == 'yes') {
 }
 
 
-var Qfrom = prompt('do u know where am I from ');
+var Qfrom = prompt('do u know where am I from ').toLowerCase();
 //console.log(Qfrom);
 //console.log(typeof(Qfrom))
 if (Qfrom == 'y' || Qfrom == 'yes') {
@@ -30,7 +30,7 @@ if (Qfrom == 'y' || Qfrom == 'yes') {
     alert('pleas enter yes or no ')
 }
 
-var Qwork = prompt('do u know any thing about my work ');
+var Qwork = prompt('do u know any thing about my work ').toLowerCase();
 //console.log(Qwork);
 //console.log(typeof(Qwork))
 if (Qwork == 'y' || Qwork == 'yes') {
