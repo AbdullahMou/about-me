@@ -14,3 +14,9 @@ p {
     background-color: red;
     height: 100px;
 }
+
+.ss {
+    background-color: rgb(255, 0, 200);
+    border: dashed;
+    font-family: Courier, monospace;
+}
