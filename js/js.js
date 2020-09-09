@@ -1,4 +1,7 @@
 'use strict';
+
+
+function Quiz (){
 var score = 0;
 var name = prompt('what\'s your name');
 alert('welcom ' + name + ' :)');
@@ -102,3 +105,5 @@ while (c < 5 && z === false) {
     c++;
 }
 alert('pleas ' + name + ' have nice time in my websit your score is : ' + score);
+} 
+Quiz(); 
