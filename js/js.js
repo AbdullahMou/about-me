@@ -1,4 +1,7 @@
 'use strict';
+
+
+function Quiz (){
 var score = 0;
 var name = prompt('what\'s your name');
 alert('welcom ' + name + ' :)');
@@ -95,3 +98,5 @@ for (var x = 0; x < Anum.length; x++) {
     }
 }
 alert('pleas ' + name + ' have nice time in my websit your score is : ' + score);
+} 
+Quiz(); 
