@@ -80,18 +80,25 @@ while (i < 4) {
 
 //Q7 
 var Anum = [11, 22, 33, 44, 55, 66];
-var QAmind = prompt('again giss greating in my mind');
-var QAmind = Number(QAmind);
+var QAmind = prompt('again giss number in my mind');
 console.log(typeof(QAmind));
+let c = 0;
+let z = false;
+while (c < 5 && z === false) {
 
-for (var x = 0; x < Anum.length; x++) {
-    if (QAmind == Anum[x]) {
-        alert('YES !!!! that\'s it');
-        score++;
-        break;
-
-    } else if (QAmind !== Anum[x]) {
-        QAmind = prompt('w b3deen');
+    for (var x = 0; x < Anum.length; x++) {
+        if (QAmind === Anum[x]) {
+            alert('YES !!!! that\'s it');
+            score++;
+            z = true;
+            break;
+        }
     }
+    if (!z) {
+        QAmind = prompt('NO !!! try another num');
+        QAmind = Number(QAmind);
+    }
+
+    c++;
 }
 alert('pleas ' + name + ' have nice time in my websit your score is : ' + score);
