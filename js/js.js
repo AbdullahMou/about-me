@@ -24,7 +24,7 @@ if (Qfrom == 'y' || Qfrom == 'yes') {
 } else {
     alert('pleas enter yes or no ');
 }
-var Qwork = prompt('do u know any thing about my work ').toLowerCase();
+var Qwork = prompt('do u know any thing about my work ');
 //console.log(Qwork);
 //console.log(typeof(Qwork))
 if (Qwork == 'y' || Qwork == 'yes') {
@@ -82,7 +82,8 @@ while (i < 4) {
 var Anum = [11, 22, 33, 44, 55, 66];
 var QAmind = prompt('again giss greating in my mind');
 var QAmind = Number(QAmind);
-console.log(typeof(QAmind))
+console.log(typeof(QAmind));
+
 for (var x = 0; x < Anum.length; x++) {
     if (QAmind == Anum[x]) {
         alert('YES !!!! that\'s it');
