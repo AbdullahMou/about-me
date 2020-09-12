@@ -1,5 +1,5 @@
 'use strict';
-
+document.getElementById(dd).onclick =Quiz()
 
 function Quiz (){
 var score = 0;
@@ -106,4 +106,4 @@ while (c < 5 && z === false) {
 }
 alert('pleas ' + name + ' have nice time in my websit your score is : ' + score);
 } 
-Quiz(); 
+//Quiz(); 
